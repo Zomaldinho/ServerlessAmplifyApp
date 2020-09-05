@@ -1,0 +1,20 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-graphqltaskfinal-prod-152938-authRole",
+            "UnauthRoleArn": "arn:aws:iam::116485334879:role/amplify-graphqltaskfinal-prod-152938-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::116485334879:role/amplify-graphqltaskfinal-prod-152938-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-graphqltaskfinal-prod-152938-deployment",
+            "UnauthRoleName": "amplify-graphqltaskfinal-prod-152938-unauthRole",
+            "StackName": "amplify-graphqltaskfinal-prod-152938",
+            "StackId": "arn:aws:cloudformation:us-east-1:116485334879:stack/amplify-graphqltaskfinal-prod-152938/ae7b3180-eeb2-11ea-93a0-125caf34a739",
+            "AmplifyAppId": "dvjb7mvznw6ol"
+        },
+        "categories": {
+            "auth": {
+                "graphqltaskfinal5757b7c3": {}
+            }
+        }
+    }
+}

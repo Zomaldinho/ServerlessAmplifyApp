@@ -1,0 +1,11 @@
+type Salary @model @auth(rules:[
+  {allow: owner},
+  {allow: groups, groups: ["Admin"]}
+])
+@key(name: "salaryByName", fields: ["name"], queryField: "salaryByName") {
+  id: ID!
+  name: String!
+  position: String!
+  wage: Int!
+  currency: String!
+}
